@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.top{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    color: lightgray;
+    font-weight: 100;
+}
+
+.about li,.grp-comp li,.help li,.com-policy li,.mailadrr{
+    list-style: none;
+    text-align: left;
+    color: white;
+    font-weight: 600;
+}
+
+.v-line {
+  border-left: 0.2px solid lightgray;
+  height: 140px;
+
+}
+
+.h-line {
+  border: 0.2px solid lightgray;
+}
+
+.bottom{
+    color: yellow;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(56, 56, 56);
+    padding: 20px 0 30px 0;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: yellow;
+}
+
+
+

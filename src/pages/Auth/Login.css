@@ -1,0 +1,133 @@
+.login {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: #f1f3f6;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main card */
+.login > div {
+  height: 520px;
+}
+
+/* LEFT SECTION */
+.left {
+  width: 300px;
+  background-color: #2874f0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left .img img {
+  width: 200px;
+}
+
+/* RIGHT SECTION */
+.right {
+  width: 400px;
+  background-color: white;
+  padding: 40px 30px;
+  box-sizing: border-box;
+}
+
+/* HEADING TEXT */
+.login-text h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.text-gray {
+  color: #878787;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+/* INPUT WRAPPER */
+.email,
+.password {
+  margin-bottom: 20px;
+}
+
+/* INPUT LABEL */
+.email .text,
+.password .text {
+  font-size: 14px;
+  color: #878787;
+  margin-bottom: 5px;
+}
+
+/* INPUT FIELD */
+.email input,
+.password input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 0;
+  font-size: 16px;
+  outline: none;
+}
+
+/* BUTTONS */
+
+
+.button1{
+    width: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  margin-top: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 2px;
+  color: white;
+  border-radius: 20px;
+}
+.button2
+{
+    width: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  margin-top: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 2px;
+  color: white;
+  border-radius: 20px;
+}
+
+.button2 a{
+      text-decoration: none;
+  color: white;
+}
+.button1:last-of-type {
+  background-color: white;
+  color: #2874f0;
+  border: 1px solid #e0e0e0;
+}
+
+/* FOOTER TEXT */
+.right .text {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #878787;
+}
+
+.join{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.login > .left,
+.login > .right {
+  height: 520px;              /* 🔥 SAME HEIGHT */
+  box-sizing: border-box;
+}

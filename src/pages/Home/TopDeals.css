@@ -1,0 +1,50 @@
+.top-deals-container {
+  background: white;
+  padding: 16px;
+  margin: 20px;
+}
+
+.topdeals-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.top-deals-row {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+}
+
+.top-deals-row::-webkit-scrollbar {
+  display: none;
+}
+
+.deal-card {
+  min-width: 160px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.deal-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.deal-title {
+  font-size: 14px;
+  margin: 8px 0 4px;
+}
+
+.deal-price {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.deal-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+
