@@ -17,7 +17,7 @@ import OrderDetail from './pages/Orders/OrdersDetail';
 import Address from "./pages/Profile/Address";
 import Profile from "./pages/Profile/Profile";
 import Search from "./pages/Search/SearchResults";
-import WishList from "./pages/Wishlist/Wishlsit";
+import WishList from "./pages/Wishlist/Wishlist";
 import Navbar from "./components/common/Navbar";
 
 
